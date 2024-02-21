@@ -1,0 +1,134 @@
+/* reset css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* body */
+body {
+    background-color: ivory;
+}
+
+div.container div.header {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightsalmon;
+}
+
+div.container div.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-decoration-line: underline;
+}
+
+div.container div.header p {
+    font-size: 10px;
+    display: inline-block;
+    width: 300px;
+    padding-bottom: 10px; 
+}
+
+div.container div.header ul {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+
+div.container div.header li {
+    display: inline-block;
+    margin: 10px 120px 10px;   
+    border-top: 10px;
+
+}
+
+div.container div.header li:hover {
+    text-decoration: underline;
+}
+
+div.container div.header a {
+    text-decoration: none;
+    color: black;
+}
+
+div.container div.home , div.container div.about , div.container div.news , div.container div.life {
+    width: 75%;
+}
+
+div.container div.home h2, div.container div.about h2, div.container div.news h2, div.container div.life h2 {
+    font-weight: bold;
+    font-size: 60px;
+    margin: 20px;
+}
+
+div.container div.home p , div.container div.about p , div.container div.news p , div.container div.life p {
+    margin: 0px 20px 20px;
+    
+}
+
+div.container div.footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+div.container div.footer img {
+    width: 10%;
+    float: left;
+}
+
+div.container div.footer ul {
+    display: inline-block;
+    margin: 30px;
+}
+
+div.container div.footer li :hover {
+    margin-bottom: 40px;
+    transition: 1s ease-in-out;
+}
